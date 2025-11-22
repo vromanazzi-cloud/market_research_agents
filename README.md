@@ -16,7 +16,7 @@ It takes a free-form market brief as input and processes it through several spec
 
 - Runs entirely **locally** using:
   - [Ollama](https://ollama.com/) to host the LLM.
-  - A configurable model (default: `llama3.2:2.2-instruct-q8`).
+  - A configurable model (default: `llama3.2:1b-instruct-q8_0`).
 
 ---
 
@@ -68,7 +68,7 @@ Key components:
 
 - **Python** 3.9 or newer (recommended)
 - **Ollama** installed and running
-- A supported model available in Ollama, e.g.:
+- A supported model available in Ollama, for example:
 
 ```bash
-ollama pull llama3.2:2.2-instruct-q8
+ollama pull llama3.2:3b-instruct-q8_0
