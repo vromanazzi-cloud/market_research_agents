@@ -1,0 +1,42 @@
+---
+
+## `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+*.env
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Log / temp
+*.log
+*.tmp
+*.swp
+*.swo
+
+# pytest / coverage (se in futuro li usi)
+.pytest_cache/
+.coverage
+htmlcov/
